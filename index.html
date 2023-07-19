@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>5 FIVE - Perlson Website</title>
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/918333709025939470/1131053688098652271/1d5ed35a1a0259b4add5d29690f92598.png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="sara mazal lessons">
+  <meta name="keywords" content="HTML, CSS, JavaScript, mazal, icons">
+  <meta name="author" content="Aylst">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    /* Additional CSS for the social buttons */
+    .socials {
+      margin-top: 20px;
+      position: relative; /* Added position relative */
+      z-index: 1; /* Added z-index to bring buttons over the canvas */
+    }
+
+    .socials button {
+      display: inline-block;
+      background: transparent;
+      border: none;
+      margin: 0 10px;
+      text-decoration: none;
+      border-bottom: 2px solid white;
+      padding: 0;
+      font-size: 48px;
+    }
+
+    .socials button:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <section class="nav">
+    <h1>5FIVE</h1>
+    <h3 class="span loader">
+      <span class="m"></span><span class="m"></span><span class="m"></span><span class="m"></span><span class="m"></span><span class="m"></span><span class="m"></span><span class="m"></span><span class="m">&nbsp;</span><span class="m">M</span><span class="m">Y</span><span class="m">&nbsp;</span><span class="m">S</span><span class="m">O</span><span class="m">I</span><span class="m">C</span><span class="m">A</span><span class="m">L</span><span class="m">S</span><span class="m"></span><span class="m"></span><span class="m"></span><span class="m"></span><span class="m"></span>
+    </h3>
+    <div class="socials">
+      <!-- New buttons for mail, Discord, and Steam -->
+      <button onclick="window.location.href='mailto:youremail@example.com'"><i class="far fa-envelope"></i></button>
+      <button onclick="window.open('https://discord.gg/your_discord_server', '_blank')"><i class="fab fa-discord"></i></button>
+      <button onclick="window.open('https://steamcommunity.com/id/your_steam_username', '_blank')"><i class="fab fa-steam"></i></button>
+    </div>
+  </section>
+  <canvas class="background"></canvas>
+  <!-- Additional scripts -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+  <script src="./script.js"></script>
+</body>
+</html>
